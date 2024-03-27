@@ -17,6 +17,38 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
+.blink {
+  outline: none;
+  color: blue;
+  -webkit-animation: blink .75s linear infinite;
+  -moz-animation: blink .75s linear infinite;
+  -ms-animation: blink .75s linear infinite;
+  -o-animation: blink .75s linear infinite;
+  animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink { 
+   0% {opacity: 1;}
+   50%{opacity:1;}
+   100%{opacity:0;}
+}
+@-moz-keyframes blink { 
+   0% {opacity: 1;}
+   50%{opacity:1;}
+   100%{opacity:0;}
+}
+@keyframes blink { 
+   0% {opacity: 1;}
+   50%{opacity:1;}
+   100%{opacity:0;}
+}
+.blink:hover {
+  color: black;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
 .email-signature{  padding: 3% !important; }
 .serviceBox {
     padding: 0 20px;
@@ -202,7 +234,7 @@ a.btn.btn-success {
 
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false"> Accepted Papers </a>
+                    <a class="nav-link" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false"> <span  class="blink">Accepted Papers</span></a>
                     <div class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href=".\doc\First_List_of_Accepted_Papers.pdf" target="_blank">First List</a>
                         <a class="dropdown-item" href=".\doc\Second_List_of_Accepted_Papers.pdf" target="_blank">Second List</a>
@@ -342,6 +374,79 @@ Participants will get the incredible chance to interact with leading experts fro
     </div>
 </div> 
 </div>
+
+<div class="highlights-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="intro">
+                    <h4>Best Presenters</h4>
+                    <div class="titleline"> </div>
+<div class="row">
+
+        <div class="col-md-4">
+
+            <div class="card" >
+
+                <img src="./images/p1.jpg"   class="img1" alt="..." >
+ 
+               <div class="card-body">
+
+                  <h5 class="card-title"><b>Dr.Krishna Jyothi</b></h5>
+
+                  
+               </div>
+
+              </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card" >
+
+                <img src="./images/p2.jpg"   class="img1" alt="...">
+
+                <div class="card-body">
+
+                  <h5 class="card-title"><b>Mr.Dheeraj Abhinav</b></h5>
+ 
+                 
+                </div>
+
+              </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card">
+
+                <img src="./images/p3.jpg" class="img1" alt="...">
+ 
+               <div class="card-body">
+
+                  <h5 class="card-title"><b>Nitesh Kumar Devrani</b></h5>
+
+                                  </div>
+
+              </div>
+
+        </div>
+
+    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 <div class="highlights-area">
     <div class="container">
